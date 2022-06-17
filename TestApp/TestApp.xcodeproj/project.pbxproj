@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1D13D2C285BFFDA00A95F35 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D13D2B285BFFDA00A95F35 /* ModalViewController.swift */; };
+		B1D13D2E285C000000A95F35 /* Feature-Name.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D13D2D285C000000A95F35 /* Feature-Name.storyboard */; };
 		B1D9AEF02859669300B3A8BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9AEEF2859669300B3A8BB /* AppDelegate.swift */; };
 		B1D9AEF22859669300B3A8BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9AEF12859669300B3A8BB /* SceneDelegate.swift */; };
 		B1D9AEF42859669300B3A8BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9AEF32859669300B3A8BB /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1D13D2B285BFFDA00A95F35 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		B1D13D2D285C000000A95F35 /* Feature-Name.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Feature-Name.storyboard"; sourceTree = "<group>"; };
 		B1D9AEEC2859669300B3A8BB /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D9AEEF2859669300B3A8BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D9AEF12859669300B3A8BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B176F2F4285D294400ADDDDB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1D13D2B285BFFDA00A95F35 /* ModalViewController.swift */,
+				B1D9AEF32859669300B3A8BB /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B176F2F5285D295200ADDDDB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9AEEF2859669300B3A8BB /* AppDelegate.swift */,
+				B1D9AEF12859669300B3A8BB /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		B1D9AEE32859669300B3A8BB = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +78,13 @@
 		B1D9AEEE2859669300B3A8BB /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
-				B1D9AEEF2859669300B3A8BB /* AppDelegate.swift */,
-				B1D9AEF12859669300B3A8BB /* SceneDelegate.swift */,
-				B1D9AEF32859669300B3A8BB /* ViewController.swift */,
+				B176F2F5285D295200ADDDDB /* Common */,
+				B176F2F4285D294400ADDDDB /* ViewController */,
 				B1D9AEF52859669300B3A8BB /* Main.storyboard */,
 				B1D9AEF82859669400B3A8BB /* Assets.xcassets */,
 				B1D9AEFA2859669400B3A8BB /* LaunchScreen.storyboard */,
 				B1D9AEFD2859669400B3A8BB /* Info.plist */,
+				B1D13D2D285C000000A95F35 /* Feature-Name.storyboard */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -125,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D13D2E285C000000A95F35 /* Feature-Name.storyboard in Resources */,
 				B1D9AEFC2859669400B3A8BB /* LaunchScreen.storyboard in Resources */,
 				B1D9AEF92859669400B3A8BB /* Assets.xcassets in Resources */,
 				B1D9AEF72859669300B3A8BB /* Main.storyboard in Resources */,
@@ -138,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D13D2C285BFFDA00A95F35 /* ModalViewController.swift in Sources */,
 				B1D9AEF42859669300B3A8BB /* ViewController.swift in Sources */,
 				B1D9AEF02859669300B3A8BB /* AppDelegate.swift in Sources */,
 				B1D9AEF22859669300B3A8BB /* SceneDelegate.swift in Sources */,
